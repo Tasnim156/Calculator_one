@@ -1,0 +1,66 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     background: #2193b0;
+ }
+ 
+ h1 {
+     margin-top: 20px;
+     text-align: center;
+     color: #fff;
+ }
+ 
+ .card {
+     margin: 0 auto;
+     max-width: 400px;
+     margin-top: 10px;
+     text-align: center;
+     box-shadow: 3px 4px 15px 2px rgba(34, 125, 204, 0.88);
+     transition: .5s;
+     background: linear-gradient(to bottom, #7f7fd5, #86a8e7, #91eae4);
+     font-size: 0;
+ }
+ 
+ .card:hover {
+     box-shadow: 8px 14px 40px 10px rgba(34, 125, 204, 0.88);
+ }
+ 
+ .calc-head input {
+     width: 398px;
+     height: 100px;
+     font-size: 32px;
+     outline: none;
+     padding: 0 10px;
+     font-weight: bold;
+     line-height: 2px;
+     text-align: right;
+     box-sizing: border-box;
+     color: #2193b0;
+ }
+ 
+ .btn {
+     width: 98px;
+     height: 75px;
+     font-weight: bold;
+     font-size: 16px;
+     background-color: #1f2326;
+     color: #fff;
+     margin: 1px;
+     outline: none;
+     border: none;
+ }
+ 
+ .btn-style {
+     background: #5F4BB6;
+ }
+ 
+ .btn:hover {
+     background: #00b4db;
+ }
+ 
+ .equal {
+     background: orange;
+ }

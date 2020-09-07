@@ -1,0 +1,41 @@
+@media (min-width:320px) and (max-width: 425px) {
+    .card {
+        margin: 0 auto;
+        max-width: 325px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 0;
+    }
+    .calc-head input {
+        width: 320px;
+        height: 85px;
+        font-size: 25px;
+        outline: none;
+        padding: 0 8px;
+        font-weight: bold;
+        line-height: 2px;
+        text-align: right;
+        box-sizing: border-box;
+        color: #8e2de2;
+    }
+    .btn {
+        width: 78px;
+        height: 70px;
+        font-weight: bold;
+        font-size: 16px;
+        background-color: #1f2326;
+        color: #fff;
+        margin: 1px;
+        outline: none;
+        border: none;
+    }
+    .btn-style {
+        background: #5F4BB6;
+    }
+    .btn:hover {
+        background: #00b4db;
+    }
+    .equal {
+        background: orange;
+    }
+}
